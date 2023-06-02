@@ -1,0 +1,12 @@
+<span style="cursor: pointer;"><img src="${baseurl}/images/minus.png" style="width:15px; height:15px"></span>
+                                                            <input type="text" value="${alldata.SaleQty}" class="text-center col-sm-2" style="border-radius:10px;border:none;" name="quantity" onchange="input_qty(${itm_id}, this)" id="${alldata.id}" itemid="${itm_id}" oldqty="${alldata.SaleQty}" min="1" max="100">
+                                                            <span onclick="PlusQty(${itm_id})" style="cursor: pointer;"><img src="${baseurl}/images/plus.png" style="width:15px; height:15px"></span>
+
+
+
+
+
+
+ <span onclick="MinusQty(${itm_id})" style="cursor: pointer;"><img src="${baseurl}/images/minus.png" style="width:15px; height:15px"></span>
+                                                            <input type="text" value="${alldata.SaleQty}" class="text-center col-sm-2 col-md-2 col-xl-2 col-lg-2" style="border-radius:10px;border:none;" name="quantity" onchange="input_qty(${itm_id}, this)" id="${alldata.id}" itemid="${itm_id}" oldqty="${alldata.SaleQty}" min="1" max="100">
+                                                      <span onclick="PlusQty(${itm_id})" style="cursor: pointer;"><img src="${baseurl}/images/plus.png" style="width:15px; height:15px"></span>        
